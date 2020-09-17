@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { Component } from 'react'
 
 export default class Projects extends Component {
 	constructor(){
@@ -23,8 +23,8 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-1.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="https://nasa-api-react.web.app/" target="_blank">Nasa APOD api React App</a></h3>
-											<span>React Website</span>
+											<h3><a href="https://nasa-api-react.web.app/" rel="noopener noreferrer" target="_blank">Nasa DOP</a></h3>
+											<span>React Website using NASA APOD apis. In this app you can show every day new image which is provide by nasa. I call nasa api to Nasa DOP. </span>
 											<p className="icon">
 												<span>
 												<a style={{cursor: "pointer"}} onClick={() =>  {navigator.clipboard.writeText('https://nasa-api-react.web.app/'); this.setState({title:'Copied!!'}); }}><i className="icon-link" />{this.state.title} </a>
@@ -37,39 +37,37 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/img-2.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 02</a></h3>
-											<h3>Comming Soon...</h3>
-											<span>Animation</span>
+											<h3><a href="https://github.com/ankitbavadiya/newsab" rel="noopener noreferrer" target="_blank">NewsAB</a></h3>
+											<span>React Website using News Api. In this app you can show all types of news with category wise. I was not deploy this app because of you can't use News APIs for free when you live to server. You can use only localhost for free version of News Api. I add new feature in this site with theme changer like <b>dark mode</b>. if you check this project then vist the github repo.</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span>
+													<a style={{cursor: "pointer"}} onClick={() =>  {navigator.clipboard.writeText('https://github.com/ankitbavadiya/newsab'); this.setState({title:'Copied!!'}); }}><i className="icon-link" />{this.state.title} </a>	
+												</span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/img-3.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 03</a></h3>
-											<h3>Comming Soon...</h3>
-											<span>Illustration</span>
+											<h3><a href="https://art76.netlify.app/" rel="noopener noreferrer" target="_blank">Art76</a></h3>
+											<span>This is simple react portfolio for artist. This is show art galley with images and contact to artist. I was use fade effect on scroll for every elements.</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span>
+													<a style={{cursor: "pointer"}} onClick={() =>  {navigator.clipboard.writeText('https://art76.netlify.app/'); this.setState({title:'Copied!!'}); }}><i className="icon-link" />{this.state.title} </a>	
+												</span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)', opacity: '0.3'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Work 04</a></h3>
@@ -85,7 +83,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)', opacity: '0.3'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Work 05</a></h3>
@@ -101,7 +99,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)', opacity: '0.3'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Work 06</a></h3>
