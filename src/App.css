@@ -19,6 +19,11 @@
   color: white;
 }
 
+.particles{
+  position: absolute;
+  height: 100vh;
+}
+
 .App-link {
   color: #61dafb;
 }

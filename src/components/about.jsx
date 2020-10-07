@@ -1,16 +1,18 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import Particles from 'react-particles-js';
+import particlesOption from './particlesOption';
 export default class About extends Component {
   render() {
     return (
       <div>
         <section className="colorlib-about" data-section="about">
+        <Particles params={particlesOption } className="particles" />
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-12">
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
-                    <div className="about-desc">
+                    <div className="about-desc"> 
                     <span className="heading-meta">About Us</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <p className="wai">I am the only person I know completely. However, still when people ask me to tell something about myself, I often get perplexed. I am study about computer science and my passion is web devlopment it is only one field which is really happy to me with working.</p>
@@ -22,8 +24,10 @@ export default class About extends Component {
             </div>
         </div>
         </section>
+        
         <section className="colorlib-about">
         <div className="colorlib-narrow-content">
+        <Particles params={particlesOption } className="particles" /> 
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">What I do?</span>

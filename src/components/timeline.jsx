@@ -1,9 +1,12 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import Particles from 'react-particles-js';
+import particlesOption from './particlesOption';
 export default class Timeline extends Component {
   render() {
+    
     return (
       <div>
+        <Particles params={particlesOption } className="particles" />
         <section className="colorlib-experience" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
@@ -11,7 +14,7 @@ export default class Timeline extends Component {
                 <span className="heading-meta">highlights</span>
                 <h2 className="colorlib-heading animate-box">Timeline</h2>
               </div>
-            </div>
+            </div> 
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
